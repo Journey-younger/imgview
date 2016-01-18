@@ -206,7 +206,7 @@ public class MainActivity extends AppCompatActivity {
         public void run() {
             try {
                 Thread.sleep(2 * 1000);
-                ss="走到这改一点！";
+                ss="走到这改一点再改！";
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
